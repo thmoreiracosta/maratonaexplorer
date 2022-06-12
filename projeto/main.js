@@ -44,6 +44,7 @@ function fazerPergunta() {
 
   //   console.log(respostas[numeroAleatorio]);
   elementoResposta.innerHTML = pergunta + respostas[numeroAleatorio];
+  elementoResposta.style.opacity = 1;
 
   //sumir respostas após 3 segundos
   setTimeout(function () {
