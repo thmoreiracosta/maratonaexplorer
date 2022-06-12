@@ -13,7 +13,7 @@ body {
 #container {
   margin-top: 100px;
   width: 80%;
-  max-width: 400px;
+  max-width: 430px;
   margin-inline: auto;
 }
 
@@ -48,13 +48,28 @@ button {
   /* text-transform: uppercase; */
   transition: filter 0.2s;
   cursor: pointer;
+  
 }
 
 button:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.2);  
 }
 
 img {
     width: 60%;
     margin-bottom: 10px;
+}
+
+#resposta {
+  margin-top: 30px;
+  transition: opacity 1s;
+  
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: .9;
+  margin-bottom: 10px;
+
 }
